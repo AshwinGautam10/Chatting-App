@@ -22,6 +22,8 @@ import pic4 from './pic4.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
 
+export const = "https://chatting-app-1-sd82.onrender.com"
+
 const assets = {
     avatar_icon,
     gallery_icon,
@@ -138,3 +140,4 @@ export const messagesDummyData = [
         "createdAt": "2025-04-28T10:24:08.523Z",
     }
 ]
+
