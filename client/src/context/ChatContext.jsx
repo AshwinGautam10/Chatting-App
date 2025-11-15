@@ -6,7 +6,6 @@ import axios from "axios";
 export const ChatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
-    const url = "https://chatting-app-1-sd82.onrender.com"
     const [messages, setMessages] = useState([]);
     const [users, setUsers] = useState([]);
     const [selectedUser, setSelectedUser] = useState(null);
@@ -150,3 +149,4 @@ export const ChatProvider = ({ children }) => {
     );
 
 };
+
